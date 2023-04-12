@@ -44,6 +44,7 @@ body {
 }
 
 .navigation__cta-input {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,6 +55,16 @@ body {
   border: 1px solid #bfc8e6;
   border-radius: 4px;
   margin-right: auto;
+  background-image: url(/assets/img/Frame.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: left;
+  vertical-align: middle; 
+}
+::placeholder {
+  position: absolute;
+  top: 12px;
+  left: 30px;
 }
 .navigation__cta {
   display: flex;
